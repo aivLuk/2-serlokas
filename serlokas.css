@@ -31,6 +31,7 @@ section {
   margin-top: 40px;
 }
 
+
         h1 {
   display: inline-block;
   width: 100%;
@@ -61,4 +62,28 @@ section {
   color: white;
   text-transform: uppercase;
   border-radius: 2px;
+}
+
+@media (max-width: 750px) {
+    section {
+      width: 500px;
+      margin-left: calc((100% - 500px) / 2);
+  margin-right: calc((100% - 500px) / 2);
+    }
+}
+
+@media (max-width: 550px) {
+    section {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+}
+
+    img {
+      width: 100%;
+    }
+
+    div {
+      width: 100%;
+    }
 }
